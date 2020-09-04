@@ -81,8 +81,8 @@ def main():
     dl = len(d)
     ts = ((16-tl)/2)+tl
     ds = ((16-dl)/2)+dl
-    nt = t.rjust(ts,' ')
-    nd = d.rjust(ds,' ')
+    nt = t.rjust(int(ts),' ')
+    nd = d.rjust(int(ds),' ')
     lcd_string(nt,LCD_LINE_1)
     lcd_string(nd,LCD_LINE_2)
     time.sleep(10)
