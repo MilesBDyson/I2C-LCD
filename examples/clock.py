@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 import smbus
 import time
@@ -79,8 +79,8 @@ def main():
     d = time.strftime("%m/%d/%Y")
     tl = len(t)
     dl = len(d)
-    ts = ((16-tl)/2)+tl
-    ds = ((16-dl)/2)+dl
+    ts = int(((16-tl)/2)+tl)
+    ds = int(((16-dl)/2)+dl)
     nt = t.rjust(int(ts),' ')
     nd = d.rjust(int(ds),' ')
     lcd_string(nt,LCD_LINE_1)
