@@ -13,5 +13,5 @@ Pinouts of bothe the 16pin and 18pin displays are included in the
 images file for your review as well as examples for controlling both
 displays are included in the examples folder as well.
 
-[Wiki](https://github.com/MilesBDyson/I2C-LCD/wiki)
+More information available at [The Wiki](https://github.com/MilesBDyson/I2C-LCD/wiki)
 
